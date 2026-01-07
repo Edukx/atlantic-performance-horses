@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Atlantic Performance Horses</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --navy: #0D1B2A;
+      --gold: #CBA135;
+      --light: #F5F5F5;
+      --white: #FFFFFF;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      color: var(--navy);
+      background-color: var(--white);
+      line-height: 1.6;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    section {
+      padding: 80px 10%;
+    }
+
+    .hero {
+      background: var(--navy);
+      color: var(--white);
+      text-align: center;
+      padding: 120px 10%;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: 20px auto 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 32px;
+      border: 1px solid var(--gold);
+      color: var(--gold);
+      text-decoration: none;
+      letter-spacing: 1px;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: var(--gold);
+      color: var(--navy);
+    }
+
+    .dark {
+      background: var(--light);
+    }
+
+    .columns {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 40px;
+    }
+
+    .horse-card {
+      border: 1px solid #ddd;
+      padding: 30px;
+    }
+
+    .horse-card h3 {
+      margin-top: 0;
+    }
+
+    footer {
+      background: var(--navy);
+      color: var(--white);
+      text-align: center;
+      padding: 40px 10%;
+      font-size: 14px;
+    }
+
+    @media(max-width: 768px) {
+      section {
+        padding: 60px 8%;
+      }
+      .hero h1 {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>High-standard horse sourcing.<br>Based in Portugal. Internationally curated.</h1>
+    <p>
+      We carefully select Lusitanos and performance sport horses to match each rider’s objectives — not just to make a sale.
+    </p>
+    <a href="#contact" class="btn">Request a Private Consultation</a>
+  </section>
+
+  <!-- HOW WE WORK -->
+  <section>
+    <h2>How We Work</h2>
+    <div class="columns">
+      <div>
+        <h3>Understand Your Objectives</h3>
+        <p>Every rider is different. We begin by understanding your level, ambitions and long-term goals.</p>
+      </div>
+      <div>
+        <h3>Careful Selection & Sourcing</h3>
+        <p>Based in Portugal with a strong focus on Lusitanos, and international sourcing when objectives require it.</p>
+      </div>
+      <div>
+        <h3>Presentation & Evaluation</h3>
+        <p>Clear information, honest assessment and professionally coordinated trials.</p>
+      </div>
+      <div>
+        <h3>Secure Transaction</h3>
+        <p>Transparent process with trusted partners to protect both buyer and seller.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HORSES -->
+  <section class="dark">
+    <h2>Curated Selection</h2>
+    <p>Our portfolio is intentionally limited by design.</p>
+
+    <div class="columns">
+      <div class="horse-card">
+        <h3>6-Year-Old Lusitano Gelding</h3>
+        <p><strong>Discipline:</strong> Dressage</p>
+        <p><strong>Ideal for:</strong> Developing rider</p>
+        <p><strong>Why selected:</strong> Correct rhythm, calm mindset, rideability.</p>
+        <p><strong>Price:</strong> Upon request</p>
+      </div>
+
+      <div class="horse-card">
+        <h3>7-Year-Old Hanoverian Mare</h3>
+        <p><strong>Discipline:</strong> Dressage</p>
+        <p><strong>Ideal for:</strong> Competitive progression</p>
+        <p><strong>Why selected:</strong> Balance, movement, attitude.</p>
+        <p><strong>Price:</strong> Upon request</p>
+      </div>
+
+      <div class="horse-card">
+        <h3>5-Year-Old KWPN Gelding</h3>
+        <p><strong>Discipline:</strong> Jumping</p>
+        <p><strong>Ideal for:</strong> Developing show jumper</p>
+        <p><strong>Why selected:</strong> Scope, bravery, mindset.</p>
+        <p><strong>Price:</strong> Upon request</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section>
+    <h2>About Atlantic Performance Horses</h2>
+    <p>
+      Atlantic Performance Horses was founded with a clear vision: to offer high-standard horse sourcing rooted in expertise, honesty and performance.
+    </p>
+    <p>
+      Based in Portugal, we bring deep knowledge of the Lusitano alongside international access to high-performance sport horses — always guided by rider suitability and long-term success.
+    </p>
+    <p><strong>Performance First. Always.</strong></p>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="dark">
+    <h2>Request a Private Consultation</h2>
+    <p>Email: <strong>info@atlanticperformancehorses.com</strong></p>
+    <p>Instagram: <strong>@atlanticperformancehorses</strong></p>
+    <p>LinkedIn: <strong>Atlantic Performance Horses</strong></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © Atlantic Performance Horses — Portugal · International
+  </footer>
+
+</body>
+</html>
